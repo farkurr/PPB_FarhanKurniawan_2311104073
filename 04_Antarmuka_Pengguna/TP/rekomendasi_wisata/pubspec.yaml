@@ -1,0 +1,32 @@
+name: rekomendasi_wisata
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+# Versi aplikasi
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icon iOS style (opsional)
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  # Aktifkan material icons
+  uses-material-design: true
+
+  # Daftar asset yang digunakan dalam project
+  assets:
+    - assets/images/baturaden.jpeg
